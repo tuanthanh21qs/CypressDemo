@@ -1,0 +1,19 @@
+export const dataListGroup = {
+  token: {
+    correct:
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X3R5cGUiOjIsImVtYWlsIjoiYWRtaW5AZGVtZW4udm4iLCJleHAiOjE2OTMxODc0MzQsImlkIjoiY2M2M2I4NTMtM2FkOC00Y2Q3LThlYmEtMGQzOWRkNjY1ZDM3IiwiaXNzIjoicGFydG5lcnNoaXAtc2VydmljZSIsIm5hbWUiOiJE4bq_IG3DqG4iLCJwYXJ0bmVyc2hpcF9pZCI6IjY0MmY5YWU1NjI4MzlmNTFhMmMwNDk3ZSIsInN1YiI6IjY0MmY5YWU1NjI4MzlmNTFhMmMwNDk3ZiJ9.HLqudSMLJTSq18LRV5773slWFSISBCaPPHUa3V_cpWY',
+    incorrect:
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X3R5cGUiOjIsImVtYWlsIjoiYWRtaW5AZGVtZW4udm4iLCJleHAiOjE2OTMxODc0MzQsImlkIjoiY2M2M2I4NTMtM2FkOC00Y2Q3LThlYmEtMGQzOWRkNjY1ZDM3IiwiaXNzIjoicGFydG5lcnNoaXAtc2VydmljZSIsIm5hbWUiOiJE4bq_IG3DqG4iLCJwYXJ0bmVyc2hpcF9pZCI6IjY0MmY5YWU1NjI4MzlmNTFhMmMwNDk3ZSIsInN1YiI6IjY0MmY5YWU1NjI4MzlmNTFhMmMwNDk3ZiJ9nHLqudSMLJTSq18LRV5773slWFSISBCaPPHUa3V_cpWY',
+    expired:
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X3R5cGUiOjIsImVtYWlsIjoiYWRtaW5AZGVtZW4udm4iLCJleHAiOjE2ODMxNjgzNTksImlkIjoiY2M2M2I4NTMtM2FkOC00Y2Q3LThlYmEtMGQzOWRkNjY1ZDM3IiwiaXNzIjoicGFydG5lcnNoaXAtc2VydmljZSIsIm5hbWUiOiJE4bq_IG3DqG4iLCJwYXJ0bmVyc2hpcF9pZCI6IjY0MmY5YWU1NjI4MzlmNTFhMmMwNDk3ZSIsInN1YiI6IjY0MmY5YWU1NjI4MzlmNTFhMmMwNDk3ZiJ9.tOlLH5gTOxj9sISeb0Uh7ozi3DRI-0_SixwiTi5QY9o',
+    empty: '',
+  },
+  filterTagsList: {
+    haveResult: ['nhieu'],
+    notHaveResult: ['not exist'],
+  },
+  filterKeywords: {
+    haveResult: 'Teacher',
+    notHaveResult: 'not exist',
+  },
+};

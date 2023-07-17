@@ -1,0 +1,25 @@
+{
+  "partnership": {
+    "loginByPhone": {
+      "phoneCode": "",
+      "phoneNumber": "",
+      "password": ""
+    },
+    "loginByEmail": {
+      "email": "admin@demen.vn",
+      "password": "abc123456",
+      "partnershipId": "642f9ae562839f51a2c0497e"
+    }
+  },
+  "customer": {
+    "loginByPhone": {
+      "phoneCode": "",
+      "phoneNumber": "",
+      "password": ""
+    },
+    "loginByEmail": {
+      "email": "",
+      "password": ""
+    }
+  }
+}

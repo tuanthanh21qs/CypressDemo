@@ -1,0 +1,34 @@
+{
+  "name": "testing-api-services",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/testing-api-services/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "packages/testing-api-services/cypress.config.ts",
+        "baseUrl": "http://localhost:1912",
+        "testingType": "e2e"
+      }
+    },
+    "watch": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "packages/testing-api-services/cypress.config.ts",
+        "baseUrl": "http://localhost:1912",
+        "testingType": "e2e",
+        "watch": true,
+        "browser": "chrome"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/testing-api-services/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": []
+}

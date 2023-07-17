@@ -1,0 +1,39 @@
+[submodule "api/academy"]
+ path = api/academy
+ url = https://gitlab.demen.vn/business-unit/api/academy.git
+ branch = main
+
+[submodule "api/common"]
+ path = api/common
+ url = https://gitlab.demen.vn/business-unit/api/common.git
+ branch = main
+
+[submodule "api/quiz-bank"]
+ path = api/quiz-bank
+ url = https://gitlab.demen.vn/business-unit/api/quiz-bank.git
+ branch = main
+
+[submodule "api/storage"]
+ path = api/storage
+ url = https://gitlab.demen.vn/business-unit/api/storage.git
+ branch = main
+
+[submodule "api/partnership"]
+ path = api/partnership
+ url = https://gitlab.demen.vn/business-unit/api/partnership.git
+ branch = dev
+
+[submodule "api/partner"]
+ path = api/partner
+ url = https://gitlab.demen.vn/business-unit/api/partner.git
+ branch = dev
+
+[submodule "api/customer"]
+ path = api/customer
+ url = https://gitlab.demen.vn/business-unit/api/customer.git
+ branch = main
+
+[submodule "api/tag"]
+ path = api/tag
+ url = https://gitlab.demen.vn/business-unit/api/tag.git
+ branch = main

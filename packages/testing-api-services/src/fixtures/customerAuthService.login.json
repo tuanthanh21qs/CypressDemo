@@ -1,0 +1,64 @@
+{
+  "chars": {
+    "digits": "0123456789",
+    "letters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "specialCharacters": "!@#$%^&*()_+-=[]{}| ;:,.<>?",
+    "empty": "",
+    "null": null
+  },
+
+  "info": {
+    "email": {
+      "correct": "vuong2@gmail.com",
+      "incorrect": "mncbgdhjfgd@gmail.com",
+      "emailOtherPartnership": "thanhngo@gmail.com",
+      "onlyLetter": "aaaaaaaa",
+      "onlyDigit": "111111111",
+      "onlySpecialCharacter": "@@@@@@@@@@@@@",
+      "missingTopLevelDomain": "thanh@abc",
+      "misingUsername": "@deptrai.com",
+      "misingDomain": "thanh@.com",
+      "containWhiteSpace": "thanh ngo@gmail.com",
+      "containMoreSymbol": "tuan@thanh@gmail.com",
+      "startWithAHyphen": "tuanthanh@-gmail.com",
+      "empty": "",
+      "null": null,
+      "pwHaveSpecial": "pwhavespecial@outlook.com",
+      "pwhave8Characters": "pwhave8characters@outlook.com",
+      "pwhave50Characters": "pwhave50characters@outlook.com"
+    },
+    "password": {
+      "correct": "a12345678",
+      "haveSpecial": "a@12345678",
+      "have8Characters": "a1234567",
+      "have50Characters": "4qgt2f71qp05fohg0tcsozv6vjexcjs0aphp8s1cqdlbhhx8cg",
+      "invalid": ""
+    },
+    "phoneNumber": {
+      "correct": "2223507",
+      "fourDigits": "7454",
+      "thirdTeenDigits": "3769353211670",
+      "invalid": ""
+    },
+    "phoneCode": {
+      "correct": "29",
+      "oneDigits": "1",
+      "threeDigits": "231",
+      "invalid": ""
+    },
+    "partnershipId": {
+      "correct": "642fdfc3a874b7f1fc88bae3",
+      "incorrect": "640c22ed3720ac4a",
+      "empty": "",
+      "null": null
+    },
+    "name": "",
+    "type": {
+      "phone": 1,
+      "email": 2,
+      "invalid": 5,
+      "empty": "",
+      "null": null
+    }
+  }
+}
